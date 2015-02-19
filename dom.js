@@ -42,7 +42,7 @@ function viewImage(obj)
   x = document.getElementById(obj.title).src;
   canvas.style.backgroundImage="url('"+x+"')";
   var saveButton = document.getElementById('save');
-  saveButton.setAttribute('onclick', "saveFile.generateURL('"+x+"')") ;
+  saveButton.setAttribute('onclick', "saveFile.generateURL('"+x+"' , '"+obj.title+"')") ;
 }
 
 
