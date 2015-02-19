@@ -27,6 +27,7 @@ function addImage(object)
 
 function viewImage(obj)
 {
+
   var x = document.getElementsByTagName("canvas");
   var i;
   for (i = 0; i < x.length; i++) 
@@ -39,5 +40,9 @@ function viewImage(obj)
   canvas.style.display='block';
   console.log(obj.title);   
   x = document.getElementById(obj.title).src;
-  canvas.style.backgroundImage="url('"+x+"')";  
+  canvas.style.backgroundImage="url('"+x+"')";
+  var saveButton = document.getElementById('save');
+  saveButton.setAttribute('onclick', "saveFile.generateURL('"+x+"')") ;
 }
+
+
