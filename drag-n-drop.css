@@ -25,20 +25,16 @@ img
 .preview
 {
 	float: left;
-	margin-left: 200px;
-	margin-top: 50px;
-	height: 500px;
-	width: 1500px;
-	border: 1px solid red;
+	margin: auto;
+	margin-top: 10px;
+	width: 100%;
 	visibility: hidden;
+	height: 100%;
 }
-.toolbar
+
+canvas
 {
-	clear: both;
-	float: left;
-	margin-top: 50px;
-	height: 500px;
-	width: 150px;
-	border: 1px solid pink;
-	visibility: hidden;
+	width: 100%;
+	display: none;
+	background-repeat: no-repeat;
 }

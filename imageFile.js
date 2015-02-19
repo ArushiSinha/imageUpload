@@ -1,4 +1,4 @@
-var imageFile = (function(){
+var imageFile = function(){
 
   
 
@@ -41,11 +41,9 @@ var handleDragOver = function(evt) {
     handleDragOver : handleDragOver,
     
   }
+  
 
-
-
-
-})();
+}();
 
 
 
