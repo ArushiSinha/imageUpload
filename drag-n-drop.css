@@ -38,3 +38,22 @@ canvas
 	display: none;
 	background-repeat: no-repeat;
 }
+
+#cross
+{
+	position: absolute;
+height: 25px;
+width: 25px;
+padding: 5px;
+display: none;
+cursor: pointer;
+}
+
+div:hover #cross{
+display: block;
+}
+
+div
+{
+	float: left;
+}
