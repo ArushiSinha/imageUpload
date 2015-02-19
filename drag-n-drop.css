@@ -1,0 +1,44 @@
+#drop_zone
+{
+	height: 80px;
+	width: 80px;
+	margin: 10px;
+	border: 1px solid black;
+	float: left;
+	color: grey;
+	padding: 10px;
+}
+
+.fa-plus-circle
+{
+	font-size: 30px;
+	padding: 35px;
+}
+
+img
+{
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+}
+
+.preview
+{
+	float: left;
+	margin-left: 200px;
+	margin-top: 50px;
+	height: 500px;
+	width: 1500px;
+	border: 1px solid red;
+	visibility: hidden;
+}
+.toolbar
+{
+	clear: both;
+	float: left;
+	margin-top: 50px;
+	height: 500px;
+	width: 150px;
+	border: 1px solid pink;
+	visibility: hidden;
+}
